@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .button-hover-scale{
+        @apply hover:shadow-md hover:transition-all hover:duration-200 hover:scale-105
+    }
+}
